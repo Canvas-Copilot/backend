@@ -77,9 +77,30 @@ class Submission(BaseModel):
     late: bool
     missing: bool
     preview_url: str
+    attachments: Optional[List["Attachment"]] = None
 
     class Config:
         from_attributes = True
+
+
+class Attachment(BaseModel):
+    id: int
+    uuid: str
+    folder_id: str | int
+    display_name: str
+    filename: str
+    upload_status: str
+    content_type: str = Field(..., alias="content-type")
+    url: str
+    size: int
+    created_at: datetime
+    updated_at: datetime
+    modified_at: datetime
+    mime_class: str
+    preview_url: str
+
+    class Config:
+        allow_population_by_field_name = True
 
 
 class EnrollmentType(str, Enum):
