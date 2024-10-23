@@ -100,7 +100,7 @@ class Attachment(BaseModel):
     preview_url: str
 
     class Config:
-        allow_population_by_field_name = True
+        populate_by_name = True
 
 
 class EnrollmentType(str, Enum):
@@ -177,12 +177,10 @@ class FeedbackLength(str, Enum):
 
 # Define GradingSettings and FeedbackSettings
 class GradingSettings(BaseModel):
-    enabled: bool
     strictness: Optional[StrictnessLevel] = StrictnessLevel.moderate
 
 
 class FeedbackSettings(BaseModel):
-    enabled: bool
     tone: Optional[FeedbackTone] = FeedbackTone.constructive
     length: Optional[FeedbackLength] = FeedbackLength.medium
     custom_feedback_prompt: Optional[str] = None

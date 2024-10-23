@@ -1,0 +1,48 @@
+{
+  "course": {
+    "id": 198822,
+    "name": "Parsa Rajabi Khoury Coll of Comp Sciences Sandbox",
+    "account_id": 51,
+    "end_at": null,
+    "uuid": "lqIvzyKpS08BgPTS7lWQg0huMzdtwX1T5YpJsFYZ",
+    "course_code": "Parsa.Rajabi.CS.Sandbox",
+    "created_at": "2024-08-15T10:30:30Z",
+    "enrollments": [
+      { "type": "teacher", "user_id": 276603, "enrollment_state": "active" }
+    ],
+    "needs_grading_count": null
+  },
+  "assignment": {
+    "id": 2463025,
+    "name": "Tell me an English Joke",
+    "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/22977598/dp_app%20%25282%2529.css\"><p>Write <strong>one original joke</strong> in English. The joke should be appropriate for a general audience (school setting), and it can be in any format you choose, such as a <strong>one-liner, pun, knock-knock joke, or a short situational joke</strong>.</p>\n<p>The joke should be creative, well-structured, and easy to understand.</p>\n<p><strong>Example of Joke Types:</strong></p>\n<ol>\n<li>\n<p><strong>One-liner:</strong><br>\"Why don’t skeletons fight each other? They don’t have the guts.\"</p>\n</li>\n<li>\n<p><strong>Pun-based:</strong><br>\"I’m reading a book on anti-gravity. It’s impossible to put down!\"</p>\n</li>\n<li>\n<p><strong>Knock-Knock:</strong><br>\"Knock-knock.<br>Who’s there?<br>Lettuce.<br>Lettuce who?<br>Lettuce in, it’s cold out here!\"</p>\n</li>\n<li>\n<p><strong>Situational Joke:</strong><br>\"A perfectionist walked into a bar… apparently, it wasn’t set high enough.\"</p>\n</li>\n</ol>\n<hr>\n<p><strong>Submission Guidelines:</strong></p>\n<ul>\n<li>The joke must be <strong>original</strong>—not copied from any external source (books, internet, etc.).</li>\n<li>The joke should be brief (maximum of 2-3 sentences).</li>\n<li>Be sure to avoid any offensive or inappropriate content. The humor should be light and inclusive.</li>\n</ul><script src=\"https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/22977597/dp_app%20%25282%2529.js\"></script>",
+    "course_id": 198822,
+    "created_at": "2024-09-25T18:43:30Z",
+    "updated_at": "2024-09-25T23:12:43Z",
+    "due_at": null,
+    "html_url": "https://northeastern.instructure.com/courses/198822/assignments/2463025",
+    "points_possible": 10.0,
+    "grading_type": "points",
+    "submissions_download_url": "https://northeastern.instructure.com/courses/198822/assignments/2463025/submissions?zip=1",
+    "assignment_group_id": 502389,
+    "submission_types": ["online_text_entry", "online_upload"],
+    "has_submitted_submissions": true,
+    "needs_grading_count": 1
+  },
+  "submissions": [
+    {
+      "id": 50458067,
+      "assignment_id": 2463025,
+      "user_id": 380149,
+      "pdf": ["tests/example_input.pdf"]
+    },
+    {
+      "id": 50458068,
+      "assignment_id": 2463025,
+      "user_id": 380150,
+      "pdf": ["tests/example_input2.pdf"]
+    }
+  ],
+  "grading_settings": null,
+  "feedback_settings": null
+}
